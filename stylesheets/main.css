@@ -1,0 +1,26 @@
+*
+{
+	/* This rule ensures that when you set the width or height of an element on your webpage, that measurement INCLUDES the border. */
+	box-sizing: border-box;
+}
+
+:root
+{
+	font-size: 12pt;
+}
+
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: darkgrey;
+
+	margin: 0 auto;
+	padding: 3rem;
+
+	max-width: 8.5in;
+}
