@@ -7,6 +7,7 @@
 :root
 {
 	font-size: 12pt;
+	color-scheme: dark light;
 }
 
 html
@@ -17,10 +18,81 @@ html
 
 body
 {
-	background-color: darkgrey;
+	background-color:dimgray;
 
 	margin: 0 auto;
 	padding: 3rem;
 
 	max-width: 8.5in;
+}
+
+/*.image {
+	float: left
+}
+
+.title {
+	float:right
+}
+
+.link {
+	float: right
+}*/
+
+/* These styles define your link bar at the top of the screen. */
+
+section
+{
+	clear: both;
+}
+
+nav
+{
+	margin: 0 0 1rem;
+	/* The above is the same as doing:
+	margin-top: 0;
+	margin-right (and margin-left, implicitly) 0;
+	margin-bottom: 1rem;
+	*/
+	background-color: #112233;
+}
+
+#links
+{
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#links > li
+{
+	display: block;
+	margin: 0.5em
+}
+
+#the-captain-buster
+{
+	/* These rules make your image a square,
+	and resize it so that the whole square is covered. */
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+
+	max-width: 100%;
+
+	height: 7rem;
+	float: left;
+}
+
+/* These rules apply to all links, both with and without hovering. */
+
+a:any-link
+{
+	color: #55aaff;
+	text-decoration: none;
+}
+
+a:any-link:hover
+{
+	color: white;
 }
