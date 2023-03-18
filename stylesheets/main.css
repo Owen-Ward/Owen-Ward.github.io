@@ -58,6 +58,10 @@ nav
 	margin-bottom: 1rem;
 	*/
 	background-color: #112233;
+	display:flex;
+	justify-content: space-between;
+	align-items: right;
+
 }
 
 #links
@@ -73,6 +77,7 @@ nav
 {
 	display: block;
 	margin: 0.5em
+	
 }
 
 #the-captain-buster
@@ -106,4 +111,5 @@ a:any-link:hover
 h1
 {
 	color:#59aeef;
+	margin:0;
 }
