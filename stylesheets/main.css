@@ -2,12 +2,15 @@
 {
 	/* This rule ensures that when you set the width or height of an element on your webpage, that measurement INCLUDES the border. */
 	box-sizing: border-box;
+	
 }
 
 :root
 {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12pt;
 	color-scheme: dark light;
+	box-shadow:lightslategray;
 }
 
 html
@@ -24,6 +27,7 @@ body
 	padding: 3rem;
 
 	max-width: 8.5in;
+	text-shadow: lightslategrey;
 }
 
 /*.image {
@@ -76,12 +80,13 @@ nav
 	/* These rules make your image a square,
 	and resize it so that the whole square is covered. */
 	aspect-ratio: 1 / 1;
-	object-fit: cover;
+	object-fit:cover;
 
 	max-width: 100%;
 
 	height: 7rem;
 	float: left;
+	
 }
 
 /* These rules apply to all links, both with and without hovering. */
