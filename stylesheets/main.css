@@ -7,7 +7,7 @@
 
 :root
 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica;
 	font-size: 12pt;
 	color-scheme: dark light;
 	box-shadow:lightslategray;
@@ -21,7 +21,7 @@ html
 
 body
 {
-	background-color:dimgray;
+	background-color:#232323;
 
 	margin: 0 auto;
 	padding: 3rem;
@@ -86,6 +86,8 @@ nav
 
 	height: 7rem;
 	float: left;
+	border-radius: 50%; 
+
 	
 }
 
@@ -100,4 +102,8 @@ a:any-link
 a:any-link:hover
 {
 	color: white;
+}
+h1
+{
+	color:#59aeef;
 }
