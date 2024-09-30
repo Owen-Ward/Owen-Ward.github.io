@@ -23,4 +23,33 @@
 	height: 200px;
 	background-color: #D6E9FE;    /* Light blue */
   }
+
+  footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+	nav ul {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	img#the-captain-buster {
+	  width: 150px;
+	}
+  }
+  
+  nav ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav ul li {
+	margin-left: 20px;
+  }
   

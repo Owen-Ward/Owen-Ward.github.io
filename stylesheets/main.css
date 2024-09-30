@@ -22,13 +22,15 @@ html
 
 body
 {
-	background-color:#232323;
+	background-color:#232323; 
 
 	margin: 0 auto;
 	padding: 3rem;
 
 	max-width: 8.5in;
 	text-shadow: lightslategrey;
+
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*.image {
@@ -63,8 +65,10 @@ nav
 	justify-content: space-between;
 	align-items: center;
 	padding:0.5rem; 
-
+	
 }
+
+
 
 #links
 {
@@ -112,8 +116,44 @@ a:any-link:hover
 {
 	color: white;
 }
+
+
+
 h1
 {
 	color:#59aeef;
 	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
 }
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.1em;
+}
+button {
+	background-color: #0056b3;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #003d80;
+  }
+  
+  a:hover {
+	transform: scale(1.05);
+	transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s ease;
+  }
+  
