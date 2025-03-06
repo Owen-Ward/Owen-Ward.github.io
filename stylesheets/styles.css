@@ -41,15 +41,5 @@
 	  width: 150px;
 	}
   }
-  
-  nav ul {
-	display: flex;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-  }
-  
-  nav ul li {
-	margin-left: 20px;
-  }
+ 
   
