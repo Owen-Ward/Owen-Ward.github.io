@@ -88,21 +88,22 @@ nav
 
 #headshot
 {
-	/* These rules make your image a square,
-	and resize it so that the whole square is covered. */
-	aspect-ratio: 1 / 1;
-	object-fit:cover;
+    /* Force the image to be 150 pixels wide */
+    width: 150px; 
+    
+    /* Keep the aspect ratio square */
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 
-	max-width: 100%;
+    /* Circular crop */
+    border-radius: 50%; 
 
-	height: 7rem;
-	float: left;
-	border-radius: 50%; 
-	margin-right: 0.5rem;
-	margin-bottom: 0.5rem; 
-
-	
+    /* Layout spacing */
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem; 
 }
+
 
 /* These rules apply to all links, both with and without hovering. */
 
